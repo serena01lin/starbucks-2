@@ -79,3 +79,59 @@
 }
 
 
+.contact {
+    background-color: black;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__title {
+    color: var(--main-color);
+    margin: 25px;
+}
+.contact__form {
+    background-color: var(--main-color);
+    height: 225px;
+    width: 90%;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.contact__form-email, 
+.contact__form-comment {
+    border: 2px;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.contact__form-comment{
+    height: 45px;
+}
+.contact__form-email::placeholder, 
+.contact__form-comment::placeholder {
+    color: var(--main-color);
+    padding-left: 5px;
+    margin-top: 0px;
+}
+.contact__form-email:focus, 
+.contact__form-comment:focus {
+    background-color: black;
+} 
+.contact__form-btn {
+    background-color: var(--main-color);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.contact__form-btn:hover {
+    background-color: rgb(226, 215, 66);
+    transition: all 1s;
+}
+
+
