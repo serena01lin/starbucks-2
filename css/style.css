@@ -135,3 +135,71 @@
 }
 
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards__card {
+    background-color: var(--main-color);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 80%;
+    height: max-content;
+    position: relative;
+}
+.cards__card-img {
+    width: 100%;
+    margin-top: 0;
+}
+.cards__card-title {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+}
+.cards__card-title--yellow{
+    color: rgb(255, 238, 0);
+}
+.cards__card-content {
+    color: white;
+    padding: 0 15px 15px;
+    font-size: 14px;
+    margin: 5;
+    
+}
+.cards__card-btn {
+    border: 2px solid white;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    width: max-content;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.cards__card-btn:hover {
+    background-color: rgb(226, 215, 66);
+    transition: all 1s;
+}
+.cards__card-off {
+    background-color: rgb(255, 238, 0);
+    position: absolute;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -25px;
+    right: -20px;
+}
+
+
