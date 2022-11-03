@@ -40,3 +40,42 @@
 .header__container-icon--person {
     display: none;
 }
+
+
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.main__container-title {
+    font-size: 50px;
+    padding: 15px;
+}
+.main__container-title-green {
+    color: var(--main-color);
+}
+.main__container-paragraph {
+    font-size: 20px;
+    padding: 15px;
+}
+.main__logo {
+    display: none;
+}
+
+
+
+.gallery {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+.gallery__img {
+    width: 100%;
+    padding: 15px;
+}
+
+
