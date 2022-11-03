@@ -203,3 +203,34 @@
 }
 
 
+.footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.footer__login, 
+.footer__register,
+.footer__contact {
+    text-decoration: none;
+    color: var(--main-color);
+    margin: 20px 15px 0px;
+    font-size: 18px;
+}
+.footer__contact {
+    color: rgb(4,170,0);
+    margin-bottom: 15px;
+}
+.footer__network {
+    margin: 15px 15px 0;
+}
+.footer__icons {
+    font-size: 18px;
+    color: var(--main-color);
+    padding: 5px;
+}
